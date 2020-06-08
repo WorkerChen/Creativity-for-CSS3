@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+            关键点：
+                1.通过margin-left属性将左右两列放置到准确的位置,通过控制middle的子容器的margin或者padding空出左右两列的宽度
+                2.父元素不需要设置padding
+                3.margin-left取值为百分比时,以其父元素的宽度为基准
+        */
+        .g-container {
+            position: relative;
+            height: 100vh;
+            min-width: 400px;
+        }
+
+        .g-container div {
+            height: 100vh;
+            float: left;
+            text-align: center;
+            color: #ffffff;
+            line-height: 100vh;
+            font-size: 3vw;
+        }
+
+        .g-middle {
+            position: relative;
+            width: 100%;
+            background: #cc6630;
+        }
+
+        .g-middle-inner {
+            width: 100%;
+        }
+
+        .g-left {
+            position: relative;
+            width: 200px;
+            background: #ffcc00;
+            margin-left: -100%;
+        }
+
+        .g-right {
+            position: relative;
+            width: 200px;
+            background: pink;
+            margin-left: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="g-container">
+        <div class="g-middle">
+            <div class="g-middle-inner">middle-inner </div>
+        </div>
+        <div class="g-left">left</div>
+        <div class="g-right">right</div>
+    </div>
+</body>
+
+</html>

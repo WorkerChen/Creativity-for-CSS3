@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <!--要求，共4列，首列宽度固定为200px，其余3列均分剩余宽度，每列间距10px-->
+    <h2>display: grid 实现</h2>
+    <div class="g-grid">
+        <div class="g-item">0</div>
+        <div class="g-item">1</div>
+        <div class="g-item">2</div>
+        <div class="g-item">3</div>
+    </div>
+    <h2>display: flex 实现</h2>
+    <div class="g-flex">
+        <div class="g-item">0</div>
+        <div class="g-item">1</div>
+        <div class="g-item">2</div>
+        <div class="g-item">3</div>
+    </div>
+    <h2>position: aboslute + float 实现</h2>
+    <div class="g-position">
+        <div class="g-item">0</div>
+        <div class="g-item">1</div>
+        <div class="g-item">2</div>
+        <div class="g-item">3</div>
+    </div><!-- 不使用 calc\flex\grid 实现多列自适应均匀分布只能是百分比...-->
+    <!-- 难点在于百分比均分后间距的均分，这里参考了 bootstrap 的实现方式-->
+    <h2>position: aboslute + float +非calc实现</h2>
+    <div class="g-justify">
+        <div class="g-left">0</div>
+        <div class="g-col">
+            <div class="g-row">
+                <div class="g-item-box">
+                    <div class="g-item">1</div>
+                </div>
+                <div class="g-item-box">
+                    <div class="g-item">2</div>
+                </div>
+                <div class="g-item-box">
+                    <div class="g-item">3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

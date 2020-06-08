@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+$lineCount: 4;
+$count: 8;
+@function randomNum($max, $min: 0, $u: 1) {
+    @return ($min + random($max)) * $u;
+}
+
+@function randomColor() {
+    @return rgb(randomNum(255), randomNum(255), randomNum(255));
+}
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 关键点：横向 flex 布局嵌套多列纵向 flex 布局，使用了 vw 进行自适应缩放*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    .g-queue {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 24%;
+        .g-item {
+            position: relative;
+            width: 100%;
+            margin: 2.5% 0;
+            border: 1px solid #000000;
+        }
+    }
+}
+
+// 循环添加背景色和高度
+@for $i from 1 to $lineCount+1 {
+    .g-queue:nth-child(#{$i}) {
+        @for $j from 1 to $count+1 {
+            .g-item:nth-child(#{$j}) {
+                height: #{randomNum(300, 50)}px;
+                background: randomColor();
+
+                // 文字居中对齐
+                &::after {
+                    content: "#{$j}";
+                    position: absolute;
+                    color: #fff;
+                    font-size: 24px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            } 
+        }
+    }
+}

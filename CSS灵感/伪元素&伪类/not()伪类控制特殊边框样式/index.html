@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            margin: 50px auto;
+            width: 400px;
+            height: 40px;
+            font-size: 24px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            width: 100px;
+            line-height: 40px;
+            text-align: center;
+            list-style: none;
+        }
+
+        li:not(:last-child) {
+            border-right: 1px solid #666666;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>有边框</li>
+        <li>有边框</li>
+        <li>有边框</li>
+        <li>有边框</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+            使用border生成三角形
+            使用filter:drop-shadow生成整体阴影
+         */
+        .box {
+            overflow: hidden;
+        }
+
+        .box>div {
+            float: left;
+            margin: 20px;
+
+        }
+
+        .box1 {
+            width: 30px;
+            height: 30px;
+            border: 15px solid deeppink;
+            left: 150px;
+            bottom: 150px;
+        }
+
+        .box2 {
+            width: 30px;
+            height: 30px;
+            /* 定义多个边框颜色的时候可以使用border-color */
+            border: 15px solid;
+            border-color: #FFA500 #f00 #008000 #808080;
+        }
+
+        .box3 {
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            /* 宽高为0生成四个不同颜色的三角形 */
+            border-color: #FFA500 #f00 #008000 #808080;
+        }
+
+        .box4 {
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            /* 使用透明来生成三角形 */
+            border-color: transparent #f00 transparent transparent;
+        }
+
+        .pop {
+            margin: 30px;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            background: #e91e63;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        /* 利用伪元素生成三角形，通过绝对定位拼接气泡框 */
+        .pop::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border: 12px solid;
+            border-color: transparent #e91e63 transparent transparent;
+            position: absolute;
+            top: 40px;
+            left: -24px;
+        }
+
+        .pop p {
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        .pop-with-border {
+            margin: 30px;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            background: #ffffff;
+            border-radius: 8px;
+            position: relative;
+            border: 1px solid #dddddd;
+            /* filter 实现的是整个边框的阴影 */
+            filter: drop-shadow(0 0 5px red);
+        }
+
+        /* 生成三角形 */
+        .pop-with-border::before,
+        .pop-with-border::after {
+            content: '';
+            border: 8px solid transparent;
+            border-top: 0;
+            top: -8px;
+            border-bottom-color: #ffffff;
+            display: block;
+            width: 0;
+            height: 0;
+            left: 16px;
+            position: absolute;
+            overflow: hidden;
+            z-index: 101;
+        }
+
+        .pop-with-border::before {
+            top: -9px;
+            border-bottom-color: #dddddd;
+            z-index: 99;
+        }
+
+        .pop-with-border p {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+    <div class="pop">
+        <p>伪元素border实现气泡对话框三角形</p>
+    </div>
+    <div class="pop-with-border">
+        <p>filter:drop-shadow实现整体阴影</p>
+    </div>
+</body>
+
+</html>

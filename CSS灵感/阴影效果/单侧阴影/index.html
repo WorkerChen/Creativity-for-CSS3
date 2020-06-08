@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单侧阴影</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left,
+        .right,
+        .top,
+        .bottom {
+            margin: 30px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        /* 关键点：
+                  1.外box-shadow的前四个参数:x偏移值，y偏移值,模糊半径,扩张半径
+                  2.单侧投影的核心是在第四个参数:扩张半径。这个参数会根据你指定的值去扩大或缩小投影尺寸,如果我们用一个负的扩张半径，
+                    而他的值刚好等于模糊半径,那么投影的尺寸就会与投影的元素尺寸完全一致,除非使用偏移量来移动他,否则我们将看不到投影              
+        */
+
+        .left {
+            box-shadow: -7px 0 5px -5px #333;
+        }
+
+        .right {
+            box-shadow: 7px 0 5px -5px #333;
+        }
+
+        .top {
+            box-shadow: 0 -7px 5px -5px #333;
+        }
+
+        .bottom {
+            box-shadow: 0 7px 5px -5px #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">左</div>
+    <div class="right">右</div>
+    <div class="top">上</div>
+    <div class="bottom">下</div>
+</body>
+
+</html>
