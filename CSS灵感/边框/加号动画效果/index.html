@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: #fc3;
+            box-sizing: border-box;
+            margin: 100px auto;
+        }
+
+        /* outline-offset 边框到盒子的距离 */
+        div {
+            outline: 20px solid #000000;
+            outline-offset: 10px;
+            animation: move 8s infinite linear;
+        }
+
+        /* outline-offset 位负数的时候 */
+        @keyframes move {
+            50% {
+                outline-offset: -118px;
+
+            }
+
+            100% {
+                outline-offset: -118px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
