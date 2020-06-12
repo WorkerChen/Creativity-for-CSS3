@@ -59,9 +59,11 @@
         div:nth-child(2) {
             overflow: unset;
 
-            &::after {
-                content: "";
-            }
+
+        }
+
+        div:nth-child(2)::after {
+            content: "";
         }
 
         div:nth-child(1):hover~div:nth-child(2)::before {
