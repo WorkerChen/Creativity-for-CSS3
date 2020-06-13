@@ -1,0 +1,743 @@
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; }
+
+.a {
+  background: url("https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=");
+  background-size: 100% auto; }
+
+.b {
+  background: url("http://up.enterdesk.com/edpic_source/21/00/00/210000f8e772d7fc0758e67ae4b48807.jpg");
+  background-size: 100% auto;
+  -webkit-mask-image: linear-gradient(0, black 40%, transparent 60%);
+  mask-image-position: 50% 50%;
+  animation: move 10s infinite; }
+
+@keyframes move {
+  0% {
+    -webkit-mask-image: linear-gradient(0deg, black 40%, transparent 60%); }
+  0.2777777778% {
+    -webkit-mask-image: linear-gradient(1deg, black 40%, transparent 60%); }
+  0.5555555556% {
+    -webkit-mask-image: linear-gradient(2deg, black 40%, transparent 60%); }
+  0.8333333333% {
+    -webkit-mask-image: linear-gradient(3deg, black 40%, transparent 60%); }
+  1.1111111111% {
+    -webkit-mask-image: linear-gradient(4deg, black 40%, transparent 60%); }
+  1.3888888889% {
+    -webkit-mask-image: linear-gradient(5deg, black 40%, transparent 60%); }
+  1.6666666667% {
+    -webkit-mask-image: linear-gradient(6deg, black 40%, transparent 60%); }
+  1.9444444444% {
+    -webkit-mask-image: linear-gradient(7deg, black 40%, transparent 60%); }
+  2.2222222222% {
+    -webkit-mask-image: linear-gradient(8deg, black 40%, transparent 60%); }
+  2.5% {
+    -webkit-mask-image: linear-gradient(9deg, black 40%, transparent 60%); }
+  2.7777777778% {
+    -webkit-mask-image: linear-gradient(10deg, black 40%, transparent 60%); }
+  3.0555555556% {
+    -webkit-mask-image: linear-gradient(11deg, black 40%, transparent 60%); }
+  3.3333333333% {
+    -webkit-mask-image: linear-gradient(12deg, black 40%, transparent 60%); }
+  3.6111111111% {
+    -webkit-mask-image: linear-gradient(13deg, black 40%, transparent 60%); }
+  3.8888888889% {
+    -webkit-mask-image: linear-gradient(14deg, black 40%, transparent 60%); }
+  4.1666666667% {
+    -webkit-mask-image: linear-gradient(15deg, black 40%, transparent 60%); }
+  4.4444444444% {
+    -webkit-mask-image: linear-gradient(16deg, black 40%, transparent 60%); }
+  4.7222222222% {
+    -webkit-mask-image: linear-gradient(17deg, black 40%, transparent 60%); }
+  5% {
+    -webkit-mask-image: linear-gradient(18deg, black 40%, transparent 60%); }
+  5.2777777778% {
+    -webkit-mask-image: linear-gradient(19deg, black 40%, transparent 60%); }
+  5.5555555556% {
+    -webkit-mask-image: linear-gradient(20deg, black 40%, transparent 60%); }
+  5.8333333333% {
+    -webkit-mask-image: linear-gradient(21deg, black 40%, transparent 60%); }
+  6.1111111111% {
+    -webkit-mask-image: linear-gradient(22deg, black 40%, transparent 60%); }
+  6.3888888889% {
+    -webkit-mask-image: linear-gradient(23deg, black 40%, transparent 60%); }
+  6.6666666667% {
+    -webkit-mask-image: linear-gradient(24deg, black 40%, transparent 60%); }
+  6.9444444444% {
+    -webkit-mask-image: linear-gradient(25deg, black 40%, transparent 60%); }
+  7.2222222222% {
+    -webkit-mask-image: linear-gradient(26deg, black 40%, transparent 60%); }
+  7.5% {
+    -webkit-mask-image: linear-gradient(27deg, black 40%, transparent 60%); }
+  7.7777777778% {
+    -webkit-mask-image: linear-gradient(28deg, black 40%, transparent 60%); }
+  8.0555555556% {
+    -webkit-mask-image: linear-gradient(29deg, black 40%, transparent 60%); }
+  8.3333333333% {
+    -webkit-mask-image: linear-gradient(30deg, black 40%, transparent 60%); }
+  8.6111111111% {
+    -webkit-mask-image: linear-gradient(31deg, black 40%, transparent 60%); }
+  8.8888888889% {
+    -webkit-mask-image: linear-gradient(32deg, black 40%, transparent 60%); }
+  9.1666666667% {
+    -webkit-mask-image: linear-gradient(33deg, black 40%, transparent 60%); }
+  9.4444444444% {
+    -webkit-mask-image: linear-gradient(34deg, black 40%, transparent 60%); }
+  9.7222222222% {
+    -webkit-mask-image: linear-gradient(35deg, black 40%, transparent 60%); }
+  10% {
+    -webkit-mask-image: linear-gradient(36deg, black 40%, transparent 60%); }
+  10.2777777778% {
+    -webkit-mask-image: linear-gradient(37deg, black 40%, transparent 60%); }
+  10.5555555556% {
+    -webkit-mask-image: linear-gradient(38deg, black 40%, transparent 60%); }
+  10.8333333333% {
+    -webkit-mask-image: linear-gradient(39deg, black 40%, transparent 60%); }
+  11.1111111111% {
+    -webkit-mask-image: linear-gradient(40deg, black 40%, transparent 60%); }
+  11.3888888889% {
+    -webkit-mask-image: linear-gradient(41deg, black 40%, transparent 60%); }
+  11.6666666667% {
+    -webkit-mask-image: linear-gradient(42deg, black 40%, transparent 60%); }
+  11.9444444444% {
+    -webkit-mask-image: linear-gradient(43deg, black 40%, transparent 60%); }
+  12.2222222222% {
+    -webkit-mask-image: linear-gradient(44deg, black 40%, transparent 60%); }
+  12.5% {
+    -webkit-mask-image: linear-gradient(45deg, black 40%, transparent 60%); }
+  12.7777777778% {
+    -webkit-mask-image: linear-gradient(46deg, black 40%, transparent 60%); }
+  13.0555555556% {
+    -webkit-mask-image: linear-gradient(47deg, black 40%, transparent 60%); }
+  13.3333333333% {
+    -webkit-mask-image: linear-gradient(48deg, black 40%, transparent 60%); }
+  13.6111111111% {
+    -webkit-mask-image: linear-gradient(49deg, black 40%, transparent 60%); }
+  13.8888888889% {
+    -webkit-mask-image: linear-gradient(50deg, black 40%, transparent 60%); }
+  14.1666666667% {
+    -webkit-mask-image: linear-gradient(51deg, black 40%, transparent 60%); }
+  14.4444444444% {
+    -webkit-mask-image: linear-gradient(52deg, black 40%, transparent 60%); }
+  14.7222222222% {
+    -webkit-mask-image: linear-gradient(53deg, black 40%, transparent 60%); }
+  15% {
+    -webkit-mask-image: linear-gradient(54deg, black 40%, transparent 60%); }
+  15.2777777778% {
+    -webkit-mask-image: linear-gradient(55deg, black 40%, transparent 60%); }
+  15.5555555556% {
+    -webkit-mask-image: linear-gradient(56deg, black 40%, transparent 60%); }
+  15.8333333333% {
+    -webkit-mask-image: linear-gradient(57deg, black 40%, transparent 60%); }
+  16.1111111111% {
+    -webkit-mask-image: linear-gradient(58deg, black 40%, transparent 60%); }
+  16.3888888889% {
+    -webkit-mask-image: linear-gradient(59deg, black 40%, transparent 60%); }
+  16.6666666667% {
+    -webkit-mask-image: linear-gradient(60deg, black 40%, transparent 60%); }
+  16.9444444444% {
+    -webkit-mask-image: linear-gradient(61deg, black 40%, transparent 60%); }
+  17.2222222222% {
+    -webkit-mask-image: linear-gradient(62deg, black 40%, transparent 60%); }
+  17.5% {
+    -webkit-mask-image: linear-gradient(63deg, black 40%, transparent 60%); }
+  17.7777777778% {
+    -webkit-mask-image: linear-gradient(64deg, black 40%, transparent 60%); }
+  18.0555555556% {
+    -webkit-mask-image: linear-gradient(65deg, black 40%, transparent 60%); }
+  18.3333333333% {
+    -webkit-mask-image: linear-gradient(66deg, black 40%, transparent 60%); }
+  18.6111111111% {
+    -webkit-mask-image: linear-gradient(67deg, black 40%, transparent 60%); }
+  18.8888888889% {
+    -webkit-mask-image: linear-gradient(68deg, black 40%, transparent 60%); }
+  19.1666666667% {
+    -webkit-mask-image: linear-gradient(69deg, black 40%, transparent 60%); }
+  19.4444444444% {
+    -webkit-mask-image: linear-gradient(70deg, black 40%, transparent 60%); }
+  19.7222222222% {
+    -webkit-mask-image: linear-gradient(71deg, black 40%, transparent 60%); }
+  20% {
+    -webkit-mask-image: linear-gradient(72deg, black 40%, transparent 60%); }
+  20.2777777778% {
+    -webkit-mask-image: linear-gradient(73deg, black 40%, transparent 60%); }
+  20.5555555556% {
+    -webkit-mask-image: linear-gradient(74deg, black 40%, transparent 60%); }
+  20.8333333333% {
+    -webkit-mask-image: linear-gradient(75deg, black 40%, transparent 60%); }
+  21.1111111111% {
+    -webkit-mask-image: linear-gradient(76deg, black 40%, transparent 60%); }
+  21.3888888889% {
+    -webkit-mask-image: linear-gradient(77deg, black 40%, transparent 60%); }
+  21.6666666667% {
+    -webkit-mask-image: linear-gradient(78deg, black 40%, transparent 60%); }
+  21.9444444444% {
+    -webkit-mask-image: linear-gradient(79deg, black 40%, transparent 60%); }
+  22.2222222222% {
+    -webkit-mask-image: linear-gradient(80deg, black 40%, transparent 60%); }
+  22.5% {
+    -webkit-mask-image: linear-gradient(81deg, black 40%, transparent 60%); }
+  22.7777777778% {
+    -webkit-mask-image: linear-gradient(82deg, black 40%, transparent 60%); }
+  23.0555555556% {
+    -webkit-mask-image: linear-gradient(83deg, black 40%, transparent 60%); }
+  23.3333333333% {
+    -webkit-mask-image: linear-gradient(84deg, black 40%, transparent 60%); }
+  23.6111111111% {
+    -webkit-mask-image: linear-gradient(85deg, black 40%, transparent 60%); }
+  23.8888888889% {
+    -webkit-mask-image: linear-gradient(86deg, black 40%, transparent 60%); }
+  24.1666666667% {
+    -webkit-mask-image: linear-gradient(87deg, black 40%, transparent 60%); }
+  24.4444444444% {
+    -webkit-mask-image: linear-gradient(88deg, black 40%, transparent 60%); }
+  24.7222222222% {
+    -webkit-mask-image: linear-gradient(89deg, black 40%, transparent 60%); }
+  25% {
+    -webkit-mask-image: linear-gradient(90deg, black 40%, transparent 60%); }
+  25.2777777778% {
+    -webkit-mask-image: linear-gradient(91deg, black 40%, transparent 60%); }
+  25.5555555556% {
+    -webkit-mask-image: linear-gradient(92deg, black 40%, transparent 60%); }
+  25.8333333333% {
+    -webkit-mask-image: linear-gradient(93deg, black 40%, transparent 60%); }
+  26.1111111111% {
+    -webkit-mask-image: linear-gradient(94deg, black 40%, transparent 60%); }
+  26.3888888889% {
+    -webkit-mask-image: linear-gradient(95deg, black 40%, transparent 60%); }
+  26.6666666667% {
+    -webkit-mask-image: linear-gradient(96deg, black 40%, transparent 60%); }
+  26.9444444444% {
+    -webkit-mask-image: linear-gradient(97deg, black 40%, transparent 60%); }
+  27.2222222222% {
+    -webkit-mask-image: linear-gradient(98deg, black 40%, transparent 60%); }
+  27.5% {
+    -webkit-mask-image: linear-gradient(99deg, black 40%, transparent 60%); }
+  27.7777777778% {
+    -webkit-mask-image: linear-gradient(100deg, black 40%, transparent 60%); }
+  28.0555555556% {
+    -webkit-mask-image: linear-gradient(101deg, black 40%, transparent 60%); }
+  28.3333333333% {
+    -webkit-mask-image: linear-gradient(102deg, black 40%, transparent 60%); }
+  28.6111111111% {
+    -webkit-mask-image: linear-gradient(103deg, black 40%, transparent 60%); }
+  28.8888888889% {
+    -webkit-mask-image: linear-gradient(104deg, black 40%, transparent 60%); }
+  29.1666666667% {
+    -webkit-mask-image: linear-gradient(105deg, black 40%, transparent 60%); }
+  29.4444444444% {
+    -webkit-mask-image: linear-gradient(106deg, black 40%, transparent 60%); }
+  29.7222222222% {
+    -webkit-mask-image: linear-gradient(107deg, black 40%, transparent 60%); }
+  30% {
+    -webkit-mask-image: linear-gradient(108deg, black 40%, transparent 60%); }
+  30.2777777778% {
+    -webkit-mask-image: linear-gradient(109deg, black 40%, transparent 60%); }
+  30.5555555556% {
+    -webkit-mask-image: linear-gradient(110deg, black 40%, transparent 60%); }
+  30.8333333333% {
+    -webkit-mask-image: linear-gradient(111deg, black 40%, transparent 60%); }
+  31.1111111111% {
+    -webkit-mask-image: linear-gradient(112deg, black 40%, transparent 60%); }
+  31.3888888889% {
+    -webkit-mask-image: linear-gradient(113deg, black 40%, transparent 60%); }
+  31.6666666667% {
+    -webkit-mask-image: linear-gradient(114deg, black 40%, transparent 60%); }
+  31.9444444444% {
+    -webkit-mask-image: linear-gradient(115deg, black 40%, transparent 60%); }
+  32.2222222222% {
+    -webkit-mask-image: linear-gradient(116deg, black 40%, transparent 60%); }
+  32.5% {
+    -webkit-mask-image: linear-gradient(117deg, black 40%, transparent 60%); }
+  32.7777777778% {
+    -webkit-mask-image: linear-gradient(118deg, black 40%, transparent 60%); }
+  33.0555555556% {
+    -webkit-mask-image: linear-gradient(119deg, black 40%, transparent 60%); }
+  33.3333333333% {
+    -webkit-mask-image: linear-gradient(120deg, black 40%, transparent 60%); }
+  33.6111111111% {
+    -webkit-mask-image: linear-gradient(121deg, black 40%, transparent 60%); }
+  33.8888888889% {
+    -webkit-mask-image: linear-gradient(122deg, black 40%, transparent 60%); }
+  34.1666666667% {
+    -webkit-mask-image: linear-gradient(123deg, black 40%, transparent 60%); }
+  34.4444444444% {
+    -webkit-mask-image: linear-gradient(124deg, black 40%, transparent 60%); }
+  34.7222222222% {
+    -webkit-mask-image: linear-gradient(125deg, black 40%, transparent 60%); }
+  35% {
+    -webkit-mask-image: linear-gradient(126deg, black 40%, transparent 60%); }
+  35.2777777778% {
+    -webkit-mask-image: linear-gradient(127deg, black 40%, transparent 60%); }
+  35.5555555556% {
+    -webkit-mask-image: linear-gradient(128deg, black 40%, transparent 60%); }
+  35.8333333333% {
+    -webkit-mask-image: linear-gradient(129deg, black 40%, transparent 60%); }
+  36.1111111111% {
+    -webkit-mask-image: linear-gradient(130deg, black 40%, transparent 60%); }
+  36.3888888889% {
+    -webkit-mask-image: linear-gradient(131deg, black 40%, transparent 60%); }
+  36.6666666667% {
+    -webkit-mask-image: linear-gradient(132deg, black 40%, transparent 60%); }
+  36.9444444444% {
+    -webkit-mask-image: linear-gradient(133deg, black 40%, transparent 60%); }
+  37.2222222222% {
+    -webkit-mask-image: linear-gradient(134deg, black 40%, transparent 60%); }
+  37.5% {
+    -webkit-mask-image: linear-gradient(135deg, black 40%, transparent 60%); }
+  37.7777777778% {
+    -webkit-mask-image: linear-gradient(136deg, black 40%, transparent 60%); }
+  38.0555555556% {
+    -webkit-mask-image: linear-gradient(137deg, black 40%, transparent 60%); }
+  38.3333333333% {
+    -webkit-mask-image: linear-gradient(138deg, black 40%, transparent 60%); }
+  38.6111111111% {
+    -webkit-mask-image: linear-gradient(139deg, black 40%, transparent 60%); }
+  38.8888888889% {
+    -webkit-mask-image: linear-gradient(140deg, black 40%, transparent 60%); }
+  39.1666666667% {
+    -webkit-mask-image: linear-gradient(141deg, black 40%, transparent 60%); }
+  39.4444444444% {
+    -webkit-mask-image: linear-gradient(142deg, black 40%, transparent 60%); }
+  39.7222222222% {
+    -webkit-mask-image: linear-gradient(143deg, black 40%, transparent 60%); }
+  40% {
+    -webkit-mask-image: linear-gradient(144deg, black 40%, transparent 60%); }
+  40.2777777778% {
+    -webkit-mask-image: linear-gradient(145deg, black 40%, transparent 60%); }
+  40.5555555556% {
+    -webkit-mask-image: linear-gradient(146deg, black 40%, transparent 60%); }
+  40.8333333333% {
+    -webkit-mask-image: linear-gradient(147deg, black 40%, transparent 60%); }
+  41.1111111111% {
+    -webkit-mask-image: linear-gradient(148deg, black 40%, transparent 60%); }
+  41.3888888889% {
+    -webkit-mask-image: linear-gradient(149deg, black 40%, transparent 60%); }
+  41.6666666667% {
+    -webkit-mask-image: linear-gradient(150deg, black 40%, transparent 60%); }
+  41.9444444444% {
+    -webkit-mask-image: linear-gradient(151deg, black 40%, transparent 60%); }
+  42.2222222222% {
+    -webkit-mask-image: linear-gradient(152deg, black 40%, transparent 60%); }
+  42.5% {
+    -webkit-mask-image: linear-gradient(153deg, black 40%, transparent 60%); }
+  42.7777777778% {
+    -webkit-mask-image: linear-gradient(154deg, black 40%, transparent 60%); }
+  43.0555555556% {
+    -webkit-mask-image: linear-gradient(155deg, black 40%, transparent 60%); }
+  43.3333333333% {
+    -webkit-mask-image: linear-gradient(156deg, black 40%, transparent 60%); }
+  43.6111111111% {
+    -webkit-mask-image: linear-gradient(157deg, black 40%, transparent 60%); }
+  43.8888888889% {
+    -webkit-mask-image: linear-gradient(158deg, black 40%, transparent 60%); }
+  44.1666666667% {
+    -webkit-mask-image: linear-gradient(159deg, black 40%, transparent 60%); }
+  44.4444444444% {
+    -webkit-mask-image: linear-gradient(160deg, black 40%, transparent 60%); }
+  44.7222222222% {
+    -webkit-mask-image: linear-gradient(161deg, black 40%, transparent 60%); }
+  45% {
+    -webkit-mask-image: linear-gradient(162deg, black 40%, transparent 60%); }
+  45.2777777778% {
+    -webkit-mask-image: linear-gradient(163deg, black 40%, transparent 60%); }
+  45.5555555556% {
+    -webkit-mask-image: linear-gradient(164deg, black 40%, transparent 60%); }
+  45.8333333333% {
+    -webkit-mask-image: linear-gradient(165deg, black 40%, transparent 60%); }
+  46.1111111111% {
+    -webkit-mask-image: linear-gradient(166deg, black 40%, transparent 60%); }
+  46.3888888889% {
+    -webkit-mask-image: linear-gradient(167deg, black 40%, transparent 60%); }
+  46.6666666667% {
+    -webkit-mask-image: linear-gradient(168deg, black 40%, transparent 60%); }
+  46.9444444444% {
+    -webkit-mask-image: linear-gradient(169deg, black 40%, transparent 60%); }
+  47.2222222222% {
+    -webkit-mask-image: linear-gradient(170deg, black 40%, transparent 60%); }
+  47.5% {
+    -webkit-mask-image: linear-gradient(171deg, black 40%, transparent 60%); }
+  47.7777777778% {
+    -webkit-mask-image: linear-gradient(172deg, black 40%, transparent 60%); }
+  48.0555555556% {
+    -webkit-mask-image: linear-gradient(173deg, black 40%, transparent 60%); }
+  48.3333333333% {
+    -webkit-mask-image: linear-gradient(174deg, black 40%, transparent 60%); }
+  48.6111111111% {
+    -webkit-mask-image: linear-gradient(175deg, black 40%, transparent 60%); }
+  48.8888888889% {
+    -webkit-mask-image: linear-gradient(176deg, black 40%, transparent 60%); }
+  49.1666666667% {
+    -webkit-mask-image: linear-gradient(177deg, black 40%, transparent 60%); }
+  49.4444444444% {
+    -webkit-mask-image: linear-gradient(178deg, black 40%, transparent 60%); }
+  49.7222222222% {
+    -webkit-mask-image: linear-gradient(179deg, black 40%, transparent 60%); }
+  50% {
+    -webkit-mask-image: linear-gradient(180deg, black 40%, transparent 60%); }
+  50.2777777778% {
+    -webkit-mask-image: linear-gradient(181deg, black 40%, transparent 60%); }
+  50.5555555556% {
+    -webkit-mask-image: linear-gradient(182deg, black 40%, transparent 60%); }
+  50.8333333333% {
+    -webkit-mask-image: linear-gradient(183deg, black 40%, transparent 60%); }
+  51.1111111111% {
+    -webkit-mask-image: linear-gradient(184deg, black 40%, transparent 60%); }
+  51.3888888889% {
+    -webkit-mask-image: linear-gradient(185deg, black 40%, transparent 60%); }
+  51.6666666667% {
+    -webkit-mask-image: linear-gradient(186deg, black 40%, transparent 60%); }
+  51.9444444444% {
+    -webkit-mask-image: linear-gradient(187deg, black 40%, transparent 60%); }
+  52.2222222222% {
+    -webkit-mask-image: linear-gradient(188deg, black 40%, transparent 60%); }
+  52.5% {
+    -webkit-mask-image: linear-gradient(189deg, black 40%, transparent 60%); }
+  52.7777777778% {
+    -webkit-mask-image: linear-gradient(190deg, black 40%, transparent 60%); }
+  53.0555555556% {
+    -webkit-mask-image: linear-gradient(191deg, black 40%, transparent 60%); }
+  53.3333333333% {
+    -webkit-mask-image: linear-gradient(192deg, black 40%, transparent 60%); }
+  53.6111111111% {
+    -webkit-mask-image: linear-gradient(193deg, black 40%, transparent 60%); }
+  53.8888888889% {
+    -webkit-mask-image: linear-gradient(194deg, black 40%, transparent 60%); }
+  54.1666666667% {
+    -webkit-mask-image: linear-gradient(195deg, black 40%, transparent 60%); }
+  54.4444444444% {
+    -webkit-mask-image: linear-gradient(196deg, black 40%, transparent 60%); }
+  54.7222222222% {
+    -webkit-mask-image: linear-gradient(197deg, black 40%, transparent 60%); }
+  55% {
+    -webkit-mask-image: linear-gradient(198deg, black 40%, transparent 60%); }
+  55.2777777778% {
+    -webkit-mask-image: linear-gradient(199deg, black 40%, transparent 60%); }
+  55.5555555556% {
+    -webkit-mask-image: linear-gradient(200deg, black 40%, transparent 60%); }
+  55.8333333333% {
+    -webkit-mask-image: linear-gradient(201deg, black 40%, transparent 60%); }
+  56.1111111111% {
+    -webkit-mask-image: linear-gradient(202deg, black 40%, transparent 60%); }
+  56.3888888889% {
+    -webkit-mask-image: linear-gradient(203deg, black 40%, transparent 60%); }
+  56.6666666667% {
+    -webkit-mask-image: linear-gradient(204deg, black 40%, transparent 60%); }
+  56.9444444444% {
+    -webkit-mask-image: linear-gradient(205deg, black 40%, transparent 60%); }
+  57.2222222222% {
+    -webkit-mask-image: linear-gradient(206deg, black 40%, transparent 60%); }
+  57.5% {
+    -webkit-mask-image: linear-gradient(207deg, black 40%, transparent 60%); }
+  57.7777777778% {
+    -webkit-mask-image: linear-gradient(208deg, black 40%, transparent 60%); }
+  58.0555555556% {
+    -webkit-mask-image: linear-gradient(209deg, black 40%, transparent 60%); }
+  58.3333333333% {
+    -webkit-mask-image: linear-gradient(210deg, black 40%, transparent 60%); }
+  58.6111111111% {
+    -webkit-mask-image: linear-gradient(211deg, black 40%, transparent 60%); }
+  58.8888888889% {
+    -webkit-mask-image: linear-gradient(212deg, black 40%, transparent 60%); }
+  59.1666666667% {
+    -webkit-mask-image: linear-gradient(213deg, black 40%, transparent 60%); }
+  59.4444444444% {
+    -webkit-mask-image: linear-gradient(214deg, black 40%, transparent 60%); }
+  59.7222222222% {
+    -webkit-mask-image: linear-gradient(215deg, black 40%, transparent 60%); }
+  60% {
+    -webkit-mask-image: linear-gradient(216deg, black 40%, transparent 60%); }
+  60.2777777778% {
+    -webkit-mask-image: linear-gradient(217deg, black 40%, transparent 60%); }
+  60.5555555556% {
+    -webkit-mask-image: linear-gradient(218deg, black 40%, transparent 60%); }
+  60.8333333333% {
+    -webkit-mask-image: linear-gradient(219deg, black 40%, transparent 60%); }
+  61.1111111111% {
+    -webkit-mask-image: linear-gradient(220deg, black 40%, transparent 60%); }
+  61.3888888889% {
+    -webkit-mask-image: linear-gradient(221deg, black 40%, transparent 60%); }
+  61.6666666667% {
+    -webkit-mask-image: linear-gradient(222deg, black 40%, transparent 60%); }
+  61.9444444444% {
+    -webkit-mask-image: linear-gradient(223deg, black 40%, transparent 60%); }
+  62.2222222222% {
+    -webkit-mask-image: linear-gradient(224deg, black 40%, transparent 60%); }
+  62.5% {
+    -webkit-mask-image: linear-gradient(225deg, black 40%, transparent 60%); }
+  62.7777777778% {
+    -webkit-mask-image: linear-gradient(226deg, black 40%, transparent 60%); }
+  63.0555555556% {
+    -webkit-mask-image: linear-gradient(227deg, black 40%, transparent 60%); }
+  63.3333333333% {
+    -webkit-mask-image: linear-gradient(228deg, black 40%, transparent 60%); }
+  63.6111111111% {
+    -webkit-mask-image: linear-gradient(229deg, black 40%, transparent 60%); }
+  63.8888888889% {
+    -webkit-mask-image: linear-gradient(230deg, black 40%, transparent 60%); }
+  64.1666666667% {
+    -webkit-mask-image: linear-gradient(231deg, black 40%, transparent 60%); }
+  64.4444444444% {
+    -webkit-mask-image: linear-gradient(232deg, black 40%, transparent 60%); }
+  64.7222222222% {
+    -webkit-mask-image: linear-gradient(233deg, black 40%, transparent 60%); }
+  65% {
+    -webkit-mask-image: linear-gradient(234deg, black 40%, transparent 60%); }
+  65.2777777778% {
+    -webkit-mask-image: linear-gradient(235deg, black 40%, transparent 60%); }
+  65.5555555556% {
+    -webkit-mask-image: linear-gradient(236deg, black 40%, transparent 60%); }
+  65.8333333333% {
+    -webkit-mask-image: linear-gradient(237deg, black 40%, transparent 60%); }
+  66.1111111111% {
+    -webkit-mask-image: linear-gradient(238deg, black 40%, transparent 60%); }
+  66.3888888889% {
+    -webkit-mask-image: linear-gradient(239deg, black 40%, transparent 60%); }
+  66.6666666667% {
+    -webkit-mask-image: linear-gradient(240deg, black 40%, transparent 60%); }
+  66.9444444444% {
+    -webkit-mask-image: linear-gradient(241deg, black 40%, transparent 60%); }
+  67.2222222222% {
+    -webkit-mask-image: linear-gradient(242deg, black 40%, transparent 60%); }
+  67.5% {
+    -webkit-mask-image: linear-gradient(243deg, black 40%, transparent 60%); }
+  67.7777777778% {
+    -webkit-mask-image: linear-gradient(244deg, black 40%, transparent 60%); }
+  68.0555555556% {
+    -webkit-mask-image: linear-gradient(245deg, black 40%, transparent 60%); }
+  68.3333333333% {
+    -webkit-mask-image: linear-gradient(246deg, black 40%, transparent 60%); }
+  68.6111111111% {
+    -webkit-mask-image: linear-gradient(247deg, black 40%, transparent 60%); }
+  68.8888888889% {
+    -webkit-mask-image: linear-gradient(248deg, black 40%, transparent 60%); }
+  69.1666666667% {
+    -webkit-mask-image: linear-gradient(249deg, black 40%, transparent 60%); }
+  69.4444444444% {
+    -webkit-mask-image: linear-gradient(250deg, black 40%, transparent 60%); }
+  69.7222222222% {
+    -webkit-mask-image: linear-gradient(251deg, black 40%, transparent 60%); }
+  70% {
+    -webkit-mask-image: linear-gradient(252deg, black 40%, transparent 60%); }
+  70.2777777778% {
+    -webkit-mask-image: linear-gradient(253deg, black 40%, transparent 60%); }
+  70.5555555556% {
+    -webkit-mask-image: linear-gradient(254deg, black 40%, transparent 60%); }
+  70.8333333333% {
+    -webkit-mask-image: linear-gradient(255deg, black 40%, transparent 60%); }
+  71.1111111111% {
+    -webkit-mask-image: linear-gradient(256deg, black 40%, transparent 60%); }
+  71.3888888889% {
+    -webkit-mask-image: linear-gradient(257deg, black 40%, transparent 60%); }
+  71.6666666667% {
+    -webkit-mask-image: linear-gradient(258deg, black 40%, transparent 60%); }
+  71.9444444444% {
+    -webkit-mask-image: linear-gradient(259deg, black 40%, transparent 60%); }
+  72.2222222222% {
+    -webkit-mask-image: linear-gradient(260deg, black 40%, transparent 60%); }
+  72.5% {
+    -webkit-mask-image: linear-gradient(261deg, black 40%, transparent 60%); }
+  72.7777777778% {
+    -webkit-mask-image: linear-gradient(262deg, black 40%, transparent 60%); }
+  73.0555555556% {
+    -webkit-mask-image: linear-gradient(263deg, black 40%, transparent 60%); }
+  73.3333333333% {
+    -webkit-mask-image: linear-gradient(264deg, black 40%, transparent 60%); }
+  73.6111111111% {
+    -webkit-mask-image: linear-gradient(265deg, black 40%, transparent 60%); }
+  73.8888888889% {
+    -webkit-mask-image: linear-gradient(266deg, black 40%, transparent 60%); }
+  74.1666666667% {
+    -webkit-mask-image: linear-gradient(267deg, black 40%, transparent 60%); }
+  74.4444444444% {
+    -webkit-mask-image: linear-gradient(268deg, black 40%, transparent 60%); }
+  74.7222222222% {
+    -webkit-mask-image: linear-gradient(269deg, black 40%, transparent 60%); }
+  75% {
+    -webkit-mask-image: linear-gradient(270deg, black 40%, transparent 60%); }
+  75.2777777778% {
+    -webkit-mask-image: linear-gradient(271deg, black 40%, transparent 60%); }
+  75.5555555556% {
+    -webkit-mask-image: linear-gradient(272deg, black 40%, transparent 60%); }
+  75.8333333333% {
+    -webkit-mask-image: linear-gradient(273deg, black 40%, transparent 60%); }
+  76.1111111111% {
+    -webkit-mask-image: linear-gradient(274deg, black 40%, transparent 60%); }
+  76.3888888889% {
+    -webkit-mask-image: linear-gradient(275deg, black 40%, transparent 60%); }
+  76.6666666667% {
+    -webkit-mask-image: linear-gradient(276deg, black 40%, transparent 60%); }
+  76.9444444444% {
+    -webkit-mask-image: linear-gradient(277deg, black 40%, transparent 60%); }
+  77.2222222222% {
+    -webkit-mask-image: linear-gradient(278deg, black 40%, transparent 60%); }
+  77.5% {
+    -webkit-mask-image: linear-gradient(279deg, black 40%, transparent 60%); }
+  77.7777777778% {
+    -webkit-mask-image: linear-gradient(280deg, black 40%, transparent 60%); }
+  78.0555555556% {
+    -webkit-mask-image: linear-gradient(281deg, black 40%, transparent 60%); }
+  78.3333333333% {
+    -webkit-mask-image: linear-gradient(282deg, black 40%, transparent 60%); }
+  78.6111111111% {
+    -webkit-mask-image: linear-gradient(283deg, black 40%, transparent 60%); }
+  78.8888888889% {
+    -webkit-mask-image: linear-gradient(284deg, black 40%, transparent 60%); }
+  79.1666666667% {
+    -webkit-mask-image: linear-gradient(285deg, black 40%, transparent 60%); }
+  79.4444444444% {
+    -webkit-mask-image: linear-gradient(286deg, black 40%, transparent 60%); }
+  79.7222222222% {
+    -webkit-mask-image: linear-gradient(287deg, black 40%, transparent 60%); }
+  80% {
+    -webkit-mask-image: linear-gradient(288deg, black 40%, transparent 60%); }
+  80.2777777778% {
+    -webkit-mask-image: linear-gradient(289deg, black 40%, transparent 60%); }
+  80.5555555556% {
+    -webkit-mask-image: linear-gradient(290deg, black 40%, transparent 60%); }
+  80.8333333333% {
+    -webkit-mask-image: linear-gradient(291deg, black 40%, transparent 60%); }
+  81.1111111111% {
+    -webkit-mask-image: linear-gradient(292deg, black 40%, transparent 60%); }
+  81.3888888889% {
+    -webkit-mask-image: linear-gradient(293deg, black 40%, transparent 60%); }
+  81.6666666667% {
+    -webkit-mask-image: linear-gradient(294deg, black 40%, transparent 60%); }
+  81.9444444444% {
+    -webkit-mask-image: linear-gradient(295deg, black 40%, transparent 60%); }
+  82.2222222222% {
+    -webkit-mask-image: linear-gradient(296deg, black 40%, transparent 60%); }
+  82.5% {
+    -webkit-mask-image: linear-gradient(297deg, black 40%, transparent 60%); }
+  82.7777777778% {
+    -webkit-mask-image: linear-gradient(298deg, black 40%, transparent 60%); }
+  83.0555555556% {
+    -webkit-mask-image: linear-gradient(299deg, black 40%, transparent 60%); }
+  83.3333333333% {
+    -webkit-mask-image: linear-gradient(300deg, black 40%, transparent 60%); }
+  83.6111111111% {
+    -webkit-mask-image: linear-gradient(301deg, black 40%, transparent 60%); }
+  83.8888888889% {
+    -webkit-mask-image: linear-gradient(302deg, black 40%, transparent 60%); }
+  84.1666666667% {
+    -webkit-mask-image: linear-gradient(303deg, black 40%, transparent 60%); }
+  84.4444444444% {
+    -webkit-mask-image: linear-gradient(304deg, black 40%, transparent 60%); }
+  84.7222222222% {
+    -webkit-mask-image: linear-gradient(305deg, black 40%, transparent 60%); }
+  85% {
+    -webkit-mask-image: linear-gradient(306deg, black 40%, transparent 60%); }
+  85.2777777778% {
+    -webkit-mask-image: linear-gradient(307deg, black 40%, transparent 60%); }
+  85.5555555556% {
+    -webkit-mask-image: linear-gradient(308deg, black 40%, transparent 60%); }
+  85.8333333333% {
+    -webkit-mask-image: linear-gradient(309deg, black 40%, transparent 60%); }
+  86.1111111111% {
+    -webkit-mask-image: linear-gradient(310deg, black 40%, transparent 60%); }
+  86.3888888889% {
+    -webkit-mask-image: linear-gradient(311deg, black 40%, transparent 60%); }
+  86.6666666667% {
+    -webkit-mask-image: linear-gradient(312deg, black 40%, transparent 60%); }
+  86.9444444444% {
+    -webkit-mask-image: linear-gradient(313deg, black 40%, transparent 60%); }
+  87.2222222222% {
+    -webkit-mask-image: linear-gradient(314deg, black 40%, transparent 60%); }
+  87.5% {
+    -webkit-mask-image: linear-gradient(315deg, black 40%, transparent 60%); }
+  87.7777777778% {
+    -webkit-mask-image: linear-gradient(316deg, black 40%, transparent 60%); }
+  88.0555555556% {
+    -webkit-mask-image: linear-gradient(317deg, black 40%, transparent 60%); }
+  88.3333333333% {
+    -webkit-mask-image: linear-gradient(318deg, black 40%, transparent 60%); }
+  88.6111111111% {
+    -webkit-mask-image: linear-gradient(319deg, black 40%, transparent 60%); }
+  88.8888888889% {
+    -webkit-mask-image: linear-gradient(320deg, black 40%, transparent 60%); }
+  89.1666666667% {
+    -webkit-mask-image: linear-gradient(321deg, black 40%, transparent 60%); }
+  89.4444444444% {
+    -webkit-mask-image: linear-gradient(322deg, black 40%, transparent 60%); }
+  89.7222222222% {
+    -webkit-mask-image: linear-gradient(323deg, black 40%, transparent 60%); }
+  90% {
+    -webkit-mask-image: linear-gradient(324deg, black 40%, transparent 60%); }
+  90.2777777778% {
+    -webkit-mask-image: linear-gradient(325deg, black 40%, transparent 60%); }
+  90.5555555556% {
+    -webkit-mask-image: linear-gradient(326deg, black 40%, transparent 60%); }
+  90.8333333333% {
+    -webkit-mask-image: linear-gradient(327deg, black 40%, transparent 60%); }
+  91.1111111111% {
+    -webkit-mask-image: linear-gradient(328deg, black 40%, transparent 60%); }
+  91.3888888889% {
+    -webkit-mask-image: linear-gradient(329deg, black 40%, transparent 60%); }
+  91.6666666667% {
+    -webkit-mask-image: linear-gradient(330deg, black 40%, transparent 60%); }
+  91.9444444444% {
+    -webkit-mask-image: linear-gradient(331deg, black 40%, transparent 60%); }
+  92.2222222222% {
+    -webkit-mask-image: linear-gradient(332deg, black 40%, transparent 60%); }
+  92.5% {
+    -webkit-mask-image: linear-gradient(333deg, black 40%, transparent 60%); }
+  92.7777777778% {
+    -webkit-mask-image: linear-gradient(334deg, black 40%, transparent 60%); }
+  93.0555555556% {
+    -webkit-mask-image: linear-gradient(335deg, black 40%, transparent 60%); }
+  93.3333333333% {
+    -webkit-mask-image: linear-gradient(336deg, black 40%, transparent 60%); }
+  93.6111111111% {
+    -webkit-mask-image: linear-gradient(337deg, black 40%, transparent 60%); }
+  93.8888888889% {
+    -webkit-mask-image: linear-gradient(338deg, black 40%, transparent 60%); }
+  94.1666666667% {
+    -webkit-mask-image: linear-gradient(339deg, black 40%, transparent 60%); }
+  94.4444444444% {
+    -webkit-mask-image: linear-gradient(340deg, black 40%, transparent 60%); }
+  94.7222222222% {
+    -webkit-mask-image: linear-gradient(341deg, black 40%, transparent 60%); }
+  95% {
+    -webkit-mask-image: linear-gradient(342deg, black 40%, transparent 60%); }
+  95.2777777778% {
+    -webkit-mask-image: linear-gradient(343deg, black 40%, transparent 60%); }
+  95.5555555556% {
+    -webkit-mask-image: linear-gradient(344deg, black 40%, transparent 60%); }
+  95.8333333333% {
+    -webkit-mask-image: linear-gradient(345deg, black 40%, transparent 60%); }
+  96.1111111111% {
+    -webkit-mask-image: linear-gradient(346deg, black 40%, transparent 60%); }
+  96.3888888889% {
+    -webkit-mask-image: linear-gradient(347deg, black 40%, transparent 60%); }
+  96.6666666667% {
+    -webkit-mask-image: linear-gradient(348deg, black 40%, transparent 60%); }
+  96.9444444444% {
+    -webkit-mask-image: linear-gradient(349deg, black 40%, transparent 60%); }
+  97.2222222222% {
+    -webkit-mask-image: linear-gradient(350deg, black 40%, transparent 60%); }
+  97.5% {
+    -webkit-mask-image: linear-gradient(351deg, black 40%, transparent 60%); }
+  97.7777777778% {
+    -webkit-mask-image: linear-gradient(352deg, black 40%, transparent 60%); }
+  98.0555555556% {
+    -webkit-mask-image: linear-gradient(353deg, black 40%, transparent 60%); }
+  98.3333333333% {
+    -webkit-mask-image: linear-gradient(354deg, black 40%, transparent 60%); }
+  98.6111111111% {
+    -webkit-mask-image: linear-gradient(355deg, black 40%, transparent 60%); }
+  98.8888888889% {
+    -webkit-mask-image: linear-gradient(356deg, black 40%, transparent 60%); }
+  99.1666666667% {
+    -webkit-mask-image: linear-gradient(357deg, black 40%, transparent 60%); }
+  99.4444444444% {
+    -webkit-mask-image: linear-gradient(358deg, black 40%, transparent 60%); }
+  99.7222222222% {
+    -webkit-mask-image: linear-gradient(359deg, black 40%, transparent 60%); }
+  100% {
+    -webkit-mask-image: linear-gradient(360deg, black 40%, transparent 60%); } }
+
+/*# sourceMappingURL=output.css.map */
