@@ -1,0 +1,32 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(100vw, #ddd 0%, #666 10%, #fff, #000, #999) 4vw 29vh, radial-gradient(54vw, #ddd 0%, #666 10%, #fff, #000, #999) 12vw 88vh, radial-gradient(98vw, #ddd 0%, #666 10%, #fff, #000, #999) 89vw 3vh, radial-gradient(51vw, #ddd 0%, #666 10%, #fff, #000, #999) 54vw 42vh, radial-gradient(70vw, #ddd 0%, #666 10%, #fff, #000, #999) 60vw 22vh, radial-gradient(82vw, #ddd 0%, #666 10%, #fff, #000, #999) 38vw 39vh, radial-gradient(32vw, #ddd 0%, #666 10%, #fff, #000, #999) 82vw 7vh, radial-gradient(67vw, #ddd 0%, #666 10%, #fff, #000, #999) 7vw 47vh;
+  animation: waveMove 15s infinite linear alternate;
+  background-blend-mode: difference;
+  filter: blur(2px) hue-rotate(0); }
+  div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #03a9f4;
+    mix-blend-mode: color-burn; }
+
+@keyframes waveMove {
+  100% {
+    background-position: 69vw 18vh, 88vw 74vh, -26vw 15vh, 60vw 53vh, -9vw 13vh, -13vw 83vh, 79vw 38vh, -17vw 26vh;
+    filter: blur(5px) hue-rotate(30deg); } }
+
+/*# sourceMappingURL=output.css.map */
